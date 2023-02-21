@@ -1,0 +1,28 @@
+num= ('a','b','d','d','c','h')
+print(type(num))
+num1 = ["pawam","Amar","Suryans","Amit","Vaibhav"]
+print(type(num1))
+print(num1)
+print(num1[2])
+num1.append("Ajay")
+print(num1)
+num1.insert(2,"Anjali")
+print(num1)
+num1.remove("Amar")
+print(num1)
+print(num.count('d'))
+print(num1[3:])
+print(num1[:3])
+print(num1[3::])
+num2 = [2,3,4,2,2,5,6]
+conc = num1+num2
+print(conc)
+print(list(num)+num1)    #not posible with tuple that'why....
+print(min(num2))
+print(max(num2))
+print(sum(num2))
+print(len(num2))
+num1.extend(num2)
+avr = num2.sort()
+print(avr)
+print(num1.append(3))
